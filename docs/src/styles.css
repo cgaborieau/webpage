@@ -8,11 +8,15 @@ body {
     margin: 30px 0;
 }
 .table-wrapper {
-    min-width: 1000px;
+    max-width:98%;
+    margin-left: auto;
+    margin-right: auto;
+    /* min-width: 1000px; */
     background: #fff;
     padding: 20px 25px;
     border-radius: 3px;
     box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    overflow-x: auto;
 }
 .table-title {
     padding-bottom: 15px;
@@ -156,4 +160,15 @@ table.table .avatar {
     float: left;
     margin-top: 10px;
     font-size: 13px;
+}
+
+@media print {
+    @page { 
+        size: A4 landscape;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    body {
+        font-size: 9px;
+    }
 }
