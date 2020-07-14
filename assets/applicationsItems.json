@@ -1,0 +1,26 @@
+[
+    {
+        "id": "applications",
+        "text": "Applications",
+        "subText": "",
+        "collapse": true
+    },
+    {
+        "id": "applicationName",
+        "text": "Composant",
+        "subText": "Composant applicatif",
+        "collapse": false
+    },
+    {
+        "id": "idAppliApp",
+        "text": "id iAppli Application",
+        "subText": "identifiant iAppli",
+        "collapse": false
+    },
+    {
+        "id": "idAppliComponent",
+        "text": "id iAppli Composant",
+        "subText": "identifiant iAppli du composant",
+        "collapse": false
+    }
+]

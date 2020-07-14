@@ -1,10 +1,55 @@
 [
   {
     "applicationName": "CSDR Batch",
-    "id": 123
+    "idAppliApp": {
+      "id": 123,
+      "url": "http://mycom?id=123"
+    },
+    "idAppliComponent": {
+      "id": 334,
+      "url": "http://mycom?id=334"
+    }
   },
   {
-    "applicationName": "CSDR Web",
-    "id": 124
+    "applicationName": "CSDR Batch"
+  },
+  {
+    "applicationName": "DBDF Web"
+  },
+  {
+    "applicationName": "DBDF Batch"
+  },
+  {
+    "applicationName": "Fim Web"
+  },
+  {
+    "applicationName": "Fim Batch"
+  },
+  {
+    "applicationName": "Suivideb Web"
+  },
+  {
+    "applicationName": "Suivideb Bath"
+  },
+  {
+    "applicationName": "Api SCC"
+  },
+  {
+    "applicationName": "Netshare Assistant Web"
+  },
+  {
+    "applicationName": "Netshare Assistant Batch"
+  },
+  {
+    "applicationName": "Netshare Web"
+  },
+  {
+    "applicationName": "Octopus Web"
+  },
+  {
+    "applicationName": "Octopus Batch"
+  },
+  {
+    "applicationName": "Octopus Script"
   }
 ]
